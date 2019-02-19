@@ -1,0 +1,23 @@
+﻿<html>
+    <head>    
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />      
+           <link rel="stylesheet" type="text/css" href="styles.css">    
+    </head>    
+    <body>    
+       <div id="navbar"><span>Mobile-detect.js</span></div>    
+       <div id="wrapper">    
+          <button id="detect-button" onclick="isMobileDevice()">Detect Device</button>    
+       </div>    
+                       
+       <script>    
+           function isMobileDevice() {    
+              document.write("Orientation: " + window.orientation);    
+              document.write("<br>");    
+              document.write("User agent: " + navigator.userAgent);    
+              document.write("<br>");    
+              document.write("Screen width: " + screen.width);    
+              document.write("<br>");    
+           };    
+       </script>    
+   </body>    
+</html>
